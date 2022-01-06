@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "ES2017",
+        "lib": ["ES2017"],
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "paths": {
+            "@/*": ["lib/*"]
+        }
+    },
+    "include": ["lib", "test"]
+}

@@ -1,2 +1,1 @@
-# nestjs-redis
-nestjs-redis fix
+# nestjs-redis 8 fix
